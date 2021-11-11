@@ -2,10 +2,11 @@ package br.senai.sp.jandira.model;
 
 public enum Periodo {
 	
-	MANHA("Manhã"),
-	TARDE("Tarde"), 
-	NOITE("Noite"), 
-	SABADO("Sábado");
+	MANHA("Horário da Manhã"),
+	TARDE("Horário da Tarde"), 
+	NOITE("Horário da Noite"), 
+	SABADO("Horário Sábado"),
+	ONLINE("Curso EAD");
 	
 	private String descricao;
 	
